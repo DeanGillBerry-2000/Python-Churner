@@ -19,4 +19,5 @@ When installing Anaconda make sure to select the checkbox for adding Anaconda to
 1. Run the "run_AMEX_Churner.bat" file in the main directory
 2. Correctly enter your AMEX username into the pop-up window
 3. Correctly enter your AMEX password into the pop-up window
+
 The software will then navigate to the offers page and click all of the available promotions
