@@ -39,10 +39,11 @@ if len(buttons) > 0:
         count = count + 1
         # webpages need time to rest, otherwise we are going TOO fast
         time.sleep(1)
-    print('All available offers on this webpage clicked, closing application in 5 seconds')
+    print('All available offers on this webpage clicked')
 # if there were no offers, print a message
 else:
     print('No offers detected, please come back or try again later')
+print('Closing applicaiton in 5 seconds')
 time.sleep(5)
 driver.close()
 
