@@ -22,7 +22,7 @@ driver.find_element(By.ID, 'loginSubmit').click()
 
 # detect the number of clickable offers
 print("Login sequence complete. Waiting for offers page to load")
-WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@class = "shadow-1 dls-white-bg"]')))
+WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'filter-label-ALL')))
 print("Web page has loaded, beginning search for credit card offers")
 buttons = driver.find_elements(By.XPATH, '//button[@title = "Add to Card"]')
 
